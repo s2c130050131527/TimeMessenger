@@ -1,7 +1,7 @@
 const auth = {
   googleAuth: {
-    clientID: '177354867713-4qq1rp02k0o66k9ek814jp9b9bpg96cc',
-    clientSecret: 'lACPGgJ36rLCgvDhqLSI0uYd',
+    clientID: 'client-id',
+    clientSecret: 'client-secret',
     callbackURL: 'http://localhost:8080/auth/google/callback',
   },
 };
