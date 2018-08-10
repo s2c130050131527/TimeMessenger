@@ -19,7 +19,7 @@ const initRoute = (app, passport) => {
 
   // the callback after google has authenticated the user
   router.get('/auth/google/callback',
-    passport.authenticate('google', {
+    passport.authenticate('ge', {
       successRedirect: '/api',
       failureRedirect: '/',
     }));
